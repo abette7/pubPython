@@ -19,7 +19,7 @@ for dirpath, dirnames, filenames in os.walk(myFolder):
         print(file_name)
         myIndexPos = file_name.index('_')
         style_num = file_name[:myIndexPos]
-        color_num = file_name[myIndexPos+1:-4]
+        color_num = file_name[myIndexPos+1:].rsplit('.', -1)[0]
         #print(style_num + ' ' + color_num)
         try:
             value = df.loc[(df['STYLE'] == style_num) & (df['COLOR'] == int(color_num)), 'SKU'].iloc[0]
