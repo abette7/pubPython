@@ -7,9 +7,8 @@ import time
 import os
 import openpyxl
 
-directory = r'/Volumes/Photography_2023/CCA Web to be Ingested/Crank'
-myDesktop = r'/Users/adam.betterton/Desktop'
-excelToExport = r'/Users/adam.betterton/Desktop/ShawFiles.xlsx'
+directory = r'/Path to directory to generate a report from'
+excelToExport = r'/Path to save xlsx doc'
 file_data = []
 for dirpath, dirnames, filenames in os.walk(directory):
     for file in filenames:
