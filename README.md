@@ -14,3 +14,6 @@ Use an xlsx doc to rename a set of files. Jupyter notebook of the same name can 
 
 ### watch_folder.py
 This script watches a folder for a file, then performs an action.
+
+### winWatchFolder.py
+Simple watch/hot folder script with gui showing status and a start/stop button.
