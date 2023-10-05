@@ -12,3 +12,5 @@ Strip unneeded parts from filenames including and between two patterns.
 ### readXLS.py, .ipynb
 Use an xlsx doc to rename a set of files. Jupyter notebook of the same name can run in codespace to demonstrate operation.
 
+### watch_folder.py
+This script watches a folder for a file, then performs an action.
